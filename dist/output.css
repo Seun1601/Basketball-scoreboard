@@ -513,15 +513,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
-.font-bold {
-  font-weight: 700;
+.bg-\[\] {
+  background-color: ;
 }
 
-.underline {
-  text-decoration-line: underline;
+.bg-\[E5E5E5\] {
+  background-color: E5E5E5;
+}
+
+.bg-\[\#E5E5E5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1B244A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 36 74 / var(--tw-bg-opacity));
+}
+
+.font-CursedTimerUlil {
+  font-family: CursedTimerUlil, cursive;
+}
+
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "CursedTimerUlil";
+
+  src: url("../public/CursedTimerUlil-Aznm.ttf");
 }

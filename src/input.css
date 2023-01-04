@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+    font-family: "CursedTimerUlil";
+    src: url("../public/CursedTimerUlil-Aznm.ttf");
+}
