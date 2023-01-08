@@ -8,3 +8,7 @@
     font-family: "CursedTimerUlil";
     src: url("../public/CursedTimerUlil-Aznm.ttf");
 }
+
+*{
+    border: 1px solid red;
+}
