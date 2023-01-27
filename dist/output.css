@@ -513,40 +513,120 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-700 {
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-1\/6 {
+  height: 16.666667%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-indigo-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(165 180 252 / var(--tw-border-opacity));
+}
+
+.bg-red-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
+.bg-primary-another-300 {
+  background-color: #1b244a;;
 }
 
-.bg-\[E5E5E5\] {
-  background-color: E5E5E5;
+.p-5 {
+  padding: 1.25rem;
 }
 
-.bg-\[\#E5E5E5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#1B244A\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(27 36 74 / var(--tw-bg-opacity));
+.p-2 {
+  padding: 0.5rem;
 }
 
 .font-CursedTimerUlil {
   font-family: CursedTimerUlil, cursive;
 }
 
-.text-red-700 {
+.font-verdana {
+  font-family: verdana, sans-serif;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-gray-200 {
   --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-indigo-300 {
+  --tw-text-opacity: 1;
+  color: rgb(165 180 252 / var(--tw-text-opacity));
+}
+
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
 @font-face {
   font-family: "CursedTimerUlil";
 
   src: url("../public/CursedTimerUlil-Aznm.ttf");
+}
+
+@font-face {
+  font-family: "verdana";
+
+  src: url("../public/Verdana.ttf");
 }
